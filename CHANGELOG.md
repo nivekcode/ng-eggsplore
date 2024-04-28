@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/kreuzerk/ng-eggsplore/compare/v1.0.0...v2.0.0) (2024-04-28)
+
+### Features
+
+- 🎸 bump Angular dep definition ([645e7b9](https://github.com/kreuzerk/ng-eggsplore/commit/645e7b93f17a4902633ac14abc98a228c4ef50ea))
+
+### BREAKING CHANGES
+
+- 🧨 A17 upwards compatability
+
 # 1.0.0 (2024-04-28)
 
 ### Features
