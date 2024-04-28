@@ -12,7 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "angularLibraryStarter": ["dist/angular-library-starter"]
+      "ngEggsplore": ["dist/ng-eggsplore"]
     },
     "declaration": false,
     "downlevelIteration": true,
