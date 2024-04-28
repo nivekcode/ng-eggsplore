@@ -35,7 +35,7 @@ export class MarioComponent {
   reset$ = new Subject<void>();
   trigger$ = merge(
     fromEvent(window, 'keydown', (event: KeyboardEvent) => event.key),
-    this.reset$.pipe(map((e) => 'reset'))
+    this.reset$.pipe(map(() => 'reset'))
   ).pipe(
     scan((acc, current) => {
       if (current === 'reset') {
