@@ -35,7 +35,7 @@ export class MarioComponent {
   reset$ = new Subject<void>();
   trigger$ = merge(
     fromEvent(window, 'keydown', (event: KeyboardEvent) => event.key),
-    this.reset$.pipe(map((e) => 'reset'))
+    this.reset$.pipe(map(() => 'reset'))
   ).pipe(
     scan((acc, current) => {
       if (current === 'reset') {
@@ -44,32 +44,9 @@ export class MarioComponent {
       return `${acc}${current}`;
     }, ''),
     tap((value) => {
-      if (value.length === 1 && value !== 'm') {
+      if (value.length <= 5 && value !== 'mario'.substring(0, value.length)) {
         this.reset$.next();
-        return;
-      }
-
-      if (value.length === 2 && value !== 'ma') {
-        this.reset$.next();
-        return;
-      }
-
-      if (value.length === 3 && value !== 'mar') {
-        this.reset$.next();
-        return;
-      }
-
-      if (value.length === 4 && value !== 'mari') {
-        this.reset$.next();
-        return;
-      }
-
-      if (value.length === 5 && value !== 'mario') {
-        this.reset$.next();
-        return;
-      }
-
-      if (value.length > 5) {
+      } else if (value.length > 5) {
         this.reset$.next();
       }
     }),
