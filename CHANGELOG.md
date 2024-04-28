@@ -1,3 +1,13 @@
+# 1.0.0 (2024-04-28)
+
+### Features
+
+- 🎸 eggsplore v1 ([fbca48a](https://github.com/kreuzerk/ng-eggsplore/commit/fbca48a7de43f5f4c4e83bb143c075634b5b3c17))
+
+### BREAKING CHANGES
+
+- 🧨 Initial version (v1)
+
 ## [1.0.2](https://github.com/kreuzerk/ng-if-responsive/compare/v1.0.1...v1.0.2) (2022-12-20)
 
 ### Bug Fixes
