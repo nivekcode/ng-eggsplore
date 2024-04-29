@@ -1,3 +1,9 @@
+## [2.1.1](https://github.com/kreuzerk/ng-eggsplore/compare/v2.1.0...v2.1.1) (2024-04-29)
+
+### Bug Fixes
+
+- 🐛 adjust version range to bigger equal ([77a32e1](https://github.com/kreuzerk/ng-eggsplore/commit/77a32e107a47f9c97584efc387df4f5f3262a673))
+
 # [2.1.0](https://github.com/kreuzerk/ng-eggsplore/compare/v2.0.1...v2.1.0) (2024-04-29)
 
 ### Features
