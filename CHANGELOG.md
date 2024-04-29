@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/kreuzerk/ng-eggsplore/compare/v2.0.0...v2.0.1) (2024-04-29)
+
+### Bug Fixes
+
+- 🐛 remove CDK peer dep ([deca2e7](https://github.com/kreuzerk/ng-eggsplore/commit/deca2e7151ed9ca87defa866d4459c7f62fdffc5))
+
 # [2.0.0](https://github.com/kreuzerk/ng-eggsplore/compare/v1.0.0...v2.0.0) (2024-04-28)
 
 ### Features
