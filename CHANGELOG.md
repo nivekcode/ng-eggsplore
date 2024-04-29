@@ -1,3 +1,9 @@
+# [2.1.0](https://github.com/kreuzerk/ng-eggsplore/compare/v2.0.1...v2.1.0) (2024-04-29)
+
+### Features
+
+- 🎸 start in different position ([a051c13](https://github.com/kreuzerk/ng-eggsplore/commit/a051c13f012c3e80790361c80c04ea3e042defb0))
+
 ## [2.0.1](https://github.com/kreuzerk/ng-eggsplore/compare/v2.0.0...v2.0.1) (2024-04-29)
 
 ### Bug Fixes
