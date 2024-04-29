@@ -23,6 +23,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
       img {
           position: absolute;
           bottom: 0;
+          left: -50px;
       }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
